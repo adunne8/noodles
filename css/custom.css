@@ -1,0 +1,30 @@
+/* CSS Generated @ 13/12/2017- 0:24:18.51 */
+
+body{
+  max-width: 100%;
+}
+
+
+#title{
+  text-align: center;
+}
+.navbar{
+  text-align: center;
+}
+.navbar ul li{
+  display: inline-block;
+}
+
+
+#homeheader{
+  background-image: url("../images/stir_fry.jpg");
+  color: #fff;
+  padding: 30px;
+}
+
+.title_box{
+  padding: 30px;
+  margin: 0 60px;
+  border: 1px solid #fff;
+  text-align: center;
+}
