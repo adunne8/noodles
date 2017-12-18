@@ -13,6 +13,16 @@ body {
 }
 
 
+section{
+  padding: 30px;
+  font-size: 0; /* DIVS SIDE BY SIDE */
+}
+
+p{
+  font-size: 1rem;
+}
+
+
 /* NAVBAR ELEMENTS */
 .navbar {
   text-align: center;
@@ -33,9 +43,10 @@ body {
   color: #000;
   background: #fff;
 }
-/************************/
+/*********************************/
 
 
+/* HEADER ELEMENTS */
 #homeheader {
   /* DARKEN BACKGROUND IMAGE */
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/stir_fry.jpg");
@@ -59,12 +70,49 @@ body {
 .titlebox_subtitle{
   font-size: 1.5rem;
 }
+/*********************************/
 
+
+
+/* RESPONSIVE CONTAINER */
 .container {
   max-width: 1200px;
   margin: auto;
 }
-
+.container-flex{
+  display: flex;
+}
+/* COLOR ALTERATION */
 .container-inverted * {
   color: #fff;
+}
+
+/* 2 PANEL COMMENT AND IMAGE LAYOUT */
+.section_panel{
+  /*padding: 30px;*/
+  /*border: 1px solid #000;*/
+  /*display: inline-block;*/
+  flex: 1;
+  background-color: #fff;
+
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+
+
+}
+/* OFFSETS FOR THE TWO PANELS */
+.section_panel:nth-child(1){
+  margin-bottom: 50px;
+}
+.section_panel:nth-child(2){
+  margin-top: 50px;
+  /*margin-left: -1px;*/
+}
+
+.panel_content{
+  padding: 30px;
+}
+
+.panel_container{
+  background-color: #444;
 }
