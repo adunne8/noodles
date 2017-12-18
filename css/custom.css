@@ -5,7 +5,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 
-  margin-bottom: 2000px;
+
 }
 
 #title {
@@ -82,12 +82,22 @@ p{
 .container-flex{
   display: flex;
 }
+.container-panels{
+  margin: 0 -80px;
+}
 /* COLOR ALTERATION */
 .container-inverted * {
   color: #fff;
 }
 
+
 /* 2 PANEL COMMENT AND IMAGE LAYOUT */
+.panel_container{
+  background-color: #444;
+  margin: 0 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .section_panel{
   /*padding: 30px;*/
   /*border: 1px solid #000;*/
@@ -96,7 +106,6 @@ p{
   background-color: #fff;
 
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-
 
 
 }
@@ -111,8 +120,4 @@ p{
 
 .panel_content{
   padding: 30px;
-}
-
-.panel_container{
-  background-color: #444;
 }
