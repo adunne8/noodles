@@ -15,6 +15,7 @@ body {
 #wrapper{
   /*background-image: url("../images/slate.jpg");*/
   background-color: #f4f4f4;
+  background-image: url("../images/slate.jpg");
 }
 
 
@@ -83,8 +84,6 @@ p{
 .container {
   max-width: 1200px;
   margin: auto;
-
-
 }
 .container-flex{
   display: flex;
@@ -108,11 +107,12 @@ p{
 /* 2 PANEL COMMENT AND IMAGE LAYOUT */
 .panel_container{
   background-color: #444;
-  background-image: url("../images/slate.jpg");
+  background-image: url("../images/woodknots.jpg");
   margin: 0 50px;
   padding-top: 50px;
   padding-bottom: 50px;
   position: relative;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 /* INDIVIDUAL PANEL STYLING*/
 .article_panel{
@@ -141,7 +141,9 @@ p{
 .panel_content{
   padding: 30px;
   /*Centre content*/
+  /*
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  */
 }
