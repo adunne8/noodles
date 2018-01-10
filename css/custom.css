@@ -4,8 +4,16 @@ body {
   max-width: 100%;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-
-
+}
+header{
+  margin-bottom: 50px;
+}
+footer{
+  background-color: #333;
+  margin-top: 50px
+}
+footer h1{
+  color: #ddd;
 }
 
 #title {
@@ -85,6 +93,9 @@ p{
   max-width: 1200px;
   margin: auto;
 }
+.container-wide{
+  max-width: 100%;
+}
 .container-flex{
   display: flex;
 }
@@ -102,6 +113,12 @@ p{
 .container-inverted * {
   color: #fff;
 }
+
+.col-3{
+  width: 33.3%;
+}
+
+
 
 
 /* 2 PANEL COMMENT AND IMAGE LAYOUT */
